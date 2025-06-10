@@ -1,0 +1,9 @@
+{
+	"name": "dfpizzasalesdatatransfer",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "22ef3dae-8f4c-40db-8570-68e93fd8d412",
+		"tenantId": "fd849f64-95ca-413e-968e-401e53df7cbf"
+	}
+}
