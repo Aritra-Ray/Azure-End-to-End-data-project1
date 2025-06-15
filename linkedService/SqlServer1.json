@@ -1,0 +1,27 @@
+{
+	"name": "SqlServer1",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "MegaArit\\SQLEXPRESS",
+			"database": "pizza_db",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "Aritra",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sc-sqlserverpswrd"
+			}
+		},
+		"connectVia": {
+			"referenceName": "SHIR1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
